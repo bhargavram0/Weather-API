@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://wallpapercrafter.com/desktop/139582-anime-landscape-sky-clouds-urban-city-Kimi-no-Na-Wa-Your-Name.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    margin-top: 30px;
+    font-family: 'Poppins','sans-serif';
+    text-transform: uppercase;
+    background: linear-gradient(to bottom right,#e194e2, #b4db24,#736cc9);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  form {
+    margin-top: 30px;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-left: 10px;
+    background-color: transparent;
+    color: white;
+  }
+
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    /* background-color: #4caf50; */
+    background-image: linear-gradient(to bottom right, #51ff00,#4d45b8);
+    color: black;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    align-items: center;
+    
+    }
+
+    button:hover {
+      /* background-color: #48f014; */
+      background-image: linear-gradient(to bottom right, #008cff,#e100ff);
+
+    }
+  
+  .card {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .loading {
+    font-size: 18px;
+    margin: 30px 0;
+  }
+  
+  .error {
+    color: red;
+    font-size: 18px;
+    margin: 30px 0;
+  }
+
+  
