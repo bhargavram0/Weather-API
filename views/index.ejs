@@ -24,12 +24,12 @@
       <div class="card">
         <p>
           <div id="dme">
-            <i class="fas fa-thermometer-half"></i>
+            Temperature = <i class="fas fa-thermometer-half"></i> 
             <%=weather.main.temp%>&deg;C
           </div>
         </p>
          <p><i class="fas fa-cloud"></i>
-          <%=weather.weather[0].main%>
+          <%=weather.weather[0].description%>
         </p>
 
         <p><i class="fas fa-map-marker-alt"></i>
@@ -43,6 +43,11 @@
         <p>Humidity:</i>
           <%=weather.main.humidity%>%
         </p>
+
+        
+        <p>Pressure:</i>
+          <%=weather.main.pressure%>%
+          </p>
 
         
       </div>
